@@ -1,0 +1,9 @@
+build/
+.gradle/
+local.properties
+.idea/
+*.iml
+.DS_Store
+captures/
+# Generated sound effects (created by tools/gen_sounds.py)
+app/src/main/res/raw/*.wav
