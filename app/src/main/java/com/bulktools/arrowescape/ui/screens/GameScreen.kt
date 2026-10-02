@@ -282,7 +282,7 @@ fun GameScreen(navController: NavController, mode: String, world: Int, level: In
                         lives--
                         if (lives <= 0) showLose = true
                     } else if (mode == "blitz") {
-                        timeLeft = max(0, timeLeft - 2)
+                        timeLeft = (timeLeft - 2).coerceAtLeast(0)
                     }
                 }
             }
