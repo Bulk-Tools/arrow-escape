@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Arrow Escape</string>
+    <string name="tagline">Clear the board, one arrow at a time.</string>
+
+    <string name="nav_play">Play</string>
+    <string name="nav_daily">Daily</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_howto">How to play</string>
+
+    <string name="mode_classic">Classic</string>
+    <string name="mode_classic_desc">Journey through 120 levels. 3 lives per level.</string>
+    <string name="mode_blitz">Blitz</string>
+    <string name="mode_blitz_desc">60 seconds. Clear as many arrows as you can.</string>
+    <string name="mode_zen">Zen</string>
+    <string name="mode_zen_desc">Endless and calm. No lives, no pressure.</string>
+    <string name="mode_daily">Daily Challenge</string>
+    <string name="mode_daily_desc">One board a day. Keep your streak alive.</string>
+
+    <string name="btn_resume">Resume</string>
+    <string name="btn_restart">Restart</string>
+    <string name="btn_quit">Quit</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_replay">Replay</string>
+    <string name="btn_retry">Retry</string>
+    <string name="btn_level_map">Level map</string>
+    <string name="btn_close">Close</string>
+    <string name="btn_play">Play</string>
+    <string name="btn_reset">Reset progress</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_confirm">Confirm</string>
+
+    <string name="hud_score">Score</string>
+    <string name="hud_time">Time</string>
+    <string name="hud_best">Best</string>
+
+    <string name="dlg_paused">Paused</string>
+    <string name="dlg_you_win">Level complete!</string>
+    <string name="dlg_you_lose">Out of lives</string>
+    <string name="dlg_daily_done">Daily complete!</string>
+    <string name="dlg_times_up">Time\'s up!</string>
+
+    <string name="msg_no_hints">No hints left</string>
+    <string name="msg_tutorial_1">Tap the glowing arrow — its path is clear!</string>
+    <string name="msg_tutorial_2">That arrow is blocked! Blocked taps cost a life.</string>
+    <string name="msg_tutorial_3">Order matters — clear blockers first.</string>
+
+    <string name="set_sound">Sound effects</string>
+    <string name="set_haptics">Haptics</string>
+    <string name="set_theme">Theme</string>
+    <string name="set_reset">Reset all progress</string>
+    <string name="dlg_reset_title">Reset progress?</string>
+    <string name="dlg_reset_msg">This erases stars, stats and streaks.</string>
+
+    <string name="theme_midnight">Midnight</string>
+    <string name="theme_sunset">Sunset</string>
+    <string name="theme_forest">Forest</string>
+    <string name="theme_candy">Candy</string>
+
+    <string name="stat_stars">Stars</string>
+    <string name="stat_cleared">Arrows cleared</string>
+    <string name="stat_best_combo">Best combo</string>
+    <string name="stat_games">Games played</string>
+    <string name="stat_streak">Daily streak</string>
+
+    <string name="daily_title">Daily Challenge</string>
+    <string name="daily_streak">day streak</string>
+    <string name="daily_play">Play today\'s board</string>
+    <string name="daily_completed">Completed — come back tomorrow!</string>
+
+    <string name="howto_title">How to play</string>
+    <string name="howto_p1">Tap an arrow to fling it off the board — but only if every cell in front of it, all the way to the edge, is empty.</string>
+    <string name="howto_p2">Blocked arrows flash red. In Classic, tapping one costs a life.</string>
+    <string name="howto_p3">Chain combos by clearing arrows without mistakes — up to 8× points.</string>
+    <string name="howto_p4">Golden arrows are worth 5×. Bombs blast their neighbors. Frozen arrows need two taps.</string>
+
+    <string name="world_locked">Locked</string>
+    <string name="combo_label">Combo</string>
+</resources>
