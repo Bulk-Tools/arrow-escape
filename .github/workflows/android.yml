@@ -1,0 +1,16 @@
+name: Android CI
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: '17' }
+      - uses: gradle/actions/setup-gradle@v3
+        with: { gradle-version: '8.9' }
+      - name: Generate sound effects
+        run: python3 tools/gen_sounds.py
+      - run: gradle :app:assembleDebug --stacktrace
+      - uses: actions/upload-artifact@v4
+        with: { name: ArrowEscape-debug-apk, path: app/build/outputs/apk/debug/*.apk }
